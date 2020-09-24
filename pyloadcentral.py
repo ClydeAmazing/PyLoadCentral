@@ -1,6 +1,4 @@
 from hashlib import md5
-from bs4 import BeautifulSoup
-from eload.models import products
 import urllib.parse
 import requests
 
