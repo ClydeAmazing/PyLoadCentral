@@ -1,7 +1,7 @@
 # PyLoadCentral
 Python wrapper for [Loadcentral](http://loadcentral.com.ph/) Loading API
 
-This is based on this LC API wrapper for Node.js [repo](https://github.com/johnbailon/loadcentraljs/blob/master/index.js)
+This is based on this LC API wrapper for Node.js [repo](https://github.com/johnbailon/loadcentraljs)
 
 ### Basic Usage:
 ```python
@@ -18,7 +18,7 @@ lc = LoadCentral(UID, PASSWORD)
 # Generate random code
 rrn = 'XYZ' + str(math.floor(random() * (10000000000) + 1000))
 
-## TEST
+## TEST ##
 
 # Sell Load
 lc.sell({
@@ -38,3 +38,12 @@ print(message)
 
 ### TODO:
 * Parse ```lc.inquire``` return message
+
+### Found a bug? 
+Please don't hesitate to open an issue. I'll try to help as much as I can.  
+You may also contribute to the source code. Just let me know! :)
+
+### <3
+This simple code can be modified, redistribute or integrate on your personal projects for free.
+
+### Thanks!
